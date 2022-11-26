@@ -60,15 +60,13 @@ const personAge = (
 const techs = ['HTML', 'CSS', 'JavaScript']
 const techsFormatted = techs.map((tech) => <li>{tech}</li>)
 
-/* const userStyles = {
-  border: 1px solid #ddd,
-  borderRadius: 4px,
-  padding: 5px,
-  width: 150px,
-} */
+// const imageStyles = {
+//   maxWidth: '60%',
+//   borderRadius: '30 px'
+// }
 
 const user = (
-  <div>
+  <div style={{borderRadius: 50}}>
     <img src={vaibhavPhoto} alt='vaibhav' />
   </div>
 )
